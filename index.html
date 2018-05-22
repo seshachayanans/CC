@@ -36,7 +36,6 @@
 <body>
     <header>
         <h1>GulfStream Migration</h1>
-        <p>Test Webpage</p>
         <nav>
                 <div class="tab">
                         <button class="tablinks" onclick="openCity(event, 'DASHBOARD')">DASHBOARD</button>
@@ -46,11 +45,21 @@
                 <div id="DASHBOARD" class="tabcontent">
                         <h3>DASHBOARD</h3>
                         <p>Details of Dashboard to be displayed here</p>
-                      </div>
+                </div>
                       
                       <div id="SETTINGS" class="tabcontent">
-                        <h3>SETTINGS</h3>
-                        <p>Settings to be displayed here .</p> 
+                        <div class="tab">
+                                <button class="tablinks" onclick="openCity(event, 'actions')">actions</button>
+                                <button class="tablinks" onclick="openCity(event, 'messages')">messages</button>
+                        </div>
+                        <div id="actions" class="tabcontent">
+                                <h3>actions</h3>
+                                <p>coming soon.</p>
+                              </div>
+                              <div id="messages" class="tabcontent">
+                                    <h3>messages</h3>
+                                    <p>coming soon.</p>
+                                  </div>
                       </div>
                       
                       <div id="ABOUT" class="tabcontent">
